@@ -1,12 +1,10 @@
 # must be baller and either furnished or rent cheaper than 2100
 
 def rent?(baller, furnished, rent)
-  if baller && (furnished || rent < 2100)
+  baller && (furnished || rent < 2100)
 
-    return true
-  else
-    return false
-  end
+
+
 end
 
 ###
